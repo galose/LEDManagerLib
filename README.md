@@ -22,9 +22,11 @@ Designed for clarity, portability, and reuse across multiple PlatformIO projects
 
 ### **PlatformIO (recommended)**
 
-Clone or download this repository into your PlatformIO global library folder:
+Clone or download this repository into your PlatformIO global library folder.
 
-## Examples
+---
+
+## 📘 Examples
 
 This library includes several ready‑to‑use examples demonstrating common LED patterns and usage styles.
 
@@ -43,4 +45,25 @@ This library includes several ready‑to‑use examples demonstrating common LED
 All examples are located in the `examples/` folder and can be opened directly in PlatformIO via:  
 **PlatformIO Home → Libraries → LEDManagerLib → Examples**
 
+---
 
+## 🧰 Using LEDManagerLib with the Arduino IDE
+
+To use this library in the Arduino IDE, follow these steps:
+
+### 1. Install the library
+Since LEDManagerLib is not yet in the Arduino Library Manager, install it manually:
+
+1. Click the green **Code** button on the GitHub page  
+2. Select **Download ZIP**  
+3. In Arduino IDE, go to:  
+   **Sketch → Include Library → Add .ZIP Library…**  
+4. Select the downloaded ZIP file
+
+The library will now appear under:  
+**Sketch → Include Library → LEDManagerLib**
+
+### 2. Include the library in your sketch
+
+```cpp
+#include <LEDManagerLib.h>
