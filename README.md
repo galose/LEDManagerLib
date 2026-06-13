@@ -1,6 +1,6 @@
 <p align="center">
 
-  <!-- Version -->
+  <!-- Release -->
   <a href="https://github.com/galose/LEDManagerLib/releases">
     <img src="https://img.shields.io/github/v/release/galose/LEDManagerLib?color=blue&label=Release" />
   </a>
