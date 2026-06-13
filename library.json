@@ -1,0 +1,7 @@
+{
+  "name": "LEDManagerLib",
+  "version": "1.0.0",
+  "description": "LED manager library",
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
