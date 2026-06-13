@@ -1,6 +1,6 @@
 # LEDManagerLib
 
-LEDManagerLib is a lightweight, non‑blocking LED control library for ESP32‑based boards.  
+LEDManagerLib is a lightweight, non‑blocking LED control library for [ESP32](ca://s?q=Tell_me_more_about_ESP32)‑based boards.  
 It provides a clean, hardware‑abstracted interface for managing single or multi‑color LEDs without scattering `pinMode()` and `digitalWrite()` calls throughout your application.
 
 Designed for clarity, portability, and reuse across multiple PlatformIO projects.
@@ -13,7 +13,7 @@ Designed for clarity, portability, and reuse across multiple PlatformIO projects
 - Non‑blocking update loop  
 - Supports ON, OFF, BLINK, and custom patterns  
 - Clean separation between hardware and application logic  
-- Works with any ESP32 board (tested on Seeed XIAO ESP32S3)  
+- Works with any [ESP32 board](ca://s?q=List_common_ESP32_boards) (tested on Seeed XIAO ESP32S3)  
 - PlatformIO‑friendly structure (`src/`, `include/`, `library.json`)  
 
 ---
@@ -67,3 +67,27 @@ The library will now appear under:
 
 ```cpp
 #include <LEDManagerLib.h>
+### 3. Select an ESP32 board
+
+Go to:  
+**Tools → Board → ESP32 Arduino → (your ESP32 board)**
+
+For example:
+- ESP32 Dev Module  
+- ESP32‑S3 Dev Module  
+- Seeed XIAO ESP32S3  
+
+### 4. Open the examples
+
+Once installed, the examples appear under:  
+**File → Examples → LEDManagerLib**
+
+All example sketches from the `examples/` folder will show up automatically.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the `LICENSE` file for details.
+
