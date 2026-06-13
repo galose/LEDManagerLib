@@ -1,3 +1,35 @@
+<p align="center">
+
+  <!-- Version -->
+  <a href="https://github.com/galose/LEDManagerLib/releases">
+    <img src="https://img.shields.io/github/v/release/galose/LEDManagerLib?color=blue&label=Release" />
+  </a>
+
+  <!-- License -->
+  <a href="https://github.com/galose/LEDManagerLib/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/galose/LEDManagerLib?color=green" />
+  </a>
+
+  <!-- PlatformIO -->
+  <a href="https://platformio.org/lib/search?query=LEDManagerLib">
+    <img src="https://img.shields.io/badge/PlatformIO-Library-orange?logo=platformio" />
+  </a>
+
+  <!-- Arduino -->
+  <img src="https://img.shields.io/badge/Arduino-Compatible-00979D?logo=arduino&logoColor=white" />
+
+  <!-- Issues -->
+  <a href="https://github.com/galose/LEDManagerLib/issues">
+    <img src="https://img.shields.io/github/issues/galose/LEDManagerLib" />
+  </a>
+
+  <!-- Stars -->
+  <a href="https://github.com/galose/LEDManagerLib/stargazers">
+    <img src="https://img.shields.io/github/stars/galose/LEDManagerLib?style=social" />
+  </a>
+
+</p>
+
 # LEDManagerLib
 
 LEDManagerLib is a lightweight, non‑blocking LED control library for [ESP32](ca://s?q=Tell_me_more_about_ESP32)‑based boards.  
