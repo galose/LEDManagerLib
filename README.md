@@ -24,3 +24,23 @@ Designed for clarity, portability, and reuse across multiple PlatformIO projects
 
 Clone or download this repository into your PlatformIO global library folder:
 
+## Examples
+
+This library includes several ready‑to‑use examples demonstrating common LED patterns and usage styles.
+
+### Basic Examples
+- **BasicBlink** — Simple green blink using the non‑blocking update loop  
+- **RGBCycle** — Cycles Red → Green → Blue with timed transitions  
+
+### Status & Indicator Patterns
+- **StatusBlink** — Heartbeat‑style green blink for OK, fast red blink for Error  
+- **ErrorFlash** — Triple‑flash red error indicator used in many embedded devices  
+- **MultiStatus** — Rotates through OK / Warning / Error patterns every few seconds  
+
+### Advanced Pattern
+- **PulseFade** — Smooth breathing‑style LED pulse (requires PWM‑capable pins)
+
+All examples are located in the `examples/` folder and can be opened directly in PlatformIO via:  
+**PlatformIO Home → Libraries → LEDManagerLib → Examples**
+
+
